@@ -1,0 +1,151 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    z-index: 2;
+}
+.i{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.a{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+.o{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.cc{
+    transition-duration: 0s;
+    transition-delay: 0;
+    transition-property: all;
+}
+.t:hover .cc{
+    opacity: 0.5; 
+}
+.d:hover{
+    background-color: darkslategrey;
+}
+.d:hover .dd{
+    color: whitesmoke;
+}
+.t img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.t:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.b img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.bb:hover .cc{
+    opacity: 0.5;
+}
+.b:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.bb img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.b:hover .cc{
+    opacity: 0.5;
+}
+.bb:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.c img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.c:hover .cc{
+    opacity: 0.5;
+}
+.c:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.zz img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.zz:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.z img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.z:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.y img{
+    position: relative;
+    bottom: 0;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 150px;
+}
+.y:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.ff{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 15px;
+    background-color: lightgray;
+    align-content: center;
+}
